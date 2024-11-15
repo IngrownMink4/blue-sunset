@@ -1,2 +1,2 @@
 # blue-sunset 🦋
-A page to redirect 𝕏 (formerly Twitter) users to my new BlueSky profile
+A page to redirect 𝕏 (formerly Twitter) users to my new Bluesky profile
