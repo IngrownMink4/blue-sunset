@@ -9,56 +9,56 @@
 </head>
 <style>
 
-/* forzar aspecto claro oscuro de las web forms */
+
+
+	/* forzar aspecto claro oscuro de las web forms */
 :root {
   color-scheme: light dark;
 }
 /* end */
-  
 
 body {
-	font-family: system-ui;
+	font-family: Inter, system-ui;
 	margin: auto;
 	max-width: 100ch;
 	padding: 1ch 2ch;
 }
 
 a {
-		color: #1a5fb4;
+		color: #1185fe;
 		text-decoration-thickness: 1.25px;
 	}
 
-  
-/* selectores con color */
+	/* selectores con color */
 ::selection {
-    background-color: rgba(153,193,241,0.5);
+    background-color: #0b2644;
 }
 /* end */
 
-
-/* efecto focus en enlaces para accesibilidad */
+    /* efecto focus en enlaces para accesibilidad */
 :focus {
-    outline: 3px solid #78aeed;
+    outline: 2px solid #5c94e6;
 }
 /* end */
 
 
 @media(prefers-color-scheme: dark) {
 	body {
-		background-color: #242424;
+		background-color: #161e27;
 		color: #ffffff;
 	}
 	a {
-		color: #99c1f1;
+		color: #1185fe;
 	}
 
 		/* selectores con color */
 ::selection {
-    background-color: rgba(26,95,180,0.4);
+    background-color: #0b2644;
 }
 
 /* end */
-
+	
 }
+	
 </style>
 
